@@ -1,9 +1,111 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Furyfish Studio - Hand-Drawn Art Games</title>
+    <meta name="description"
+        content="Furyfish Studio - Game development studio with hand-drawn art style. Discover our unique games.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
 
 <body>
-    <h1>Welcome to FuryFish Studio</h1>
-    <p>Ant Smash: Bug Smasher</p>
-    <a href="https://apps.apple.com/vn/app/ant-smash-bug-smasher/id6758212034">Download on iOS</a>
+    <!-- Animated Background Elements -->
+    <div class="clouds">
+        <div class="cloud cloud-1"></div>
+        <div class="cloud cloud-2"></div>
+        <div class="cloud cloud-3"></div>
+    </div>
+    <div class="hills">
+        <div class="hill hill-1"></div>
+        <div class="hill hill-2"></div>
+        <div class="hill hill-3"></div>
+    </div>
+
+    <div class="container">
+        <!-- Navigation -->
+        <nav class="nav-menu">
+            <div class="nav-links">
+                <a href="#games" data-i18n="navGames">Games</a>
+                <a href="#about" data-i18n="navAbout">About</a>
+                <a href="#contact" data-i18n="navContact">Contact</a>
+            </div>
+            <div class="lang-switcher">
+                <button class="lang-btn active" data-lang="en">EN</button>
+                <button class="lang-btn" data-lang="vi">VI</button>
+                <button class="lang-btn" data-lang="zh">中文</button>
+            </div>
+        </nav>
+
+        <!-- Header Section -->
+        <header>
+            <div class="logo">🐟</div>
+            <h1 class="studio-name">Furyfish Studio</h1>
+            <p class="tagline" data-i18n="tagline">
+                We create games with <span class="tagline-highlight">hand-drawn art style</span>, bringing unique and
+                heartfelt experiences 🎨✨
+            </p>
+        </header>
+
+        <!-- Games Section -->
+        <h2 id="games" class="section-title" data-i18n="gamesTitle">🎮 Our Games</h2>
+
+        <div class="games-grid" id="games-container">
+            <!-- Games will be loaded from games.json -->
+        </div>
+
+        <!-- About Section -->
+        <section id="about" class="about-section">
+            <h2 class="section-title" data-i18n="aboutTitle">✨ About Us</h2>
+            <div class="about-content">
+                <p data-i18n="aboutDescription">
+                    At <strong>Furyfish Studio</strong>, we believe games are not just entertainment, but also works of
+                    art.
+                    We breathe life into every hand-drawn stroke, creating dreamy and colorful worlds full of emotion.
+                </p>
+                <div class="features-grid">
+                    <div class="feature-item">
+                        <span class="feature-icon">🖌️</span>
+                        <h3 data-i18n="feature1Title">100% Hand-Drawn</h3>
+                        <p data-i18n="feature1Desc">Every character and scene is meticulously crafted by our artists.
+                        </p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">🎹</span>
+                        <h3 data-i18n="feature2Title">Relaxing Music</h3>
+                        <p data-i18n="feature2Desc">Gentle piano melodies that heal the player's soul.</p>
+                    </div>
+                    <div class="feature-item">
+                        <span class="feature-icon">📖</span>
+                        <h3 data-i18n="feature3Title">Meaningful Stories</h3>
+                        <p data-i18n="feature3Desc">Small stories carrying positive messages about life.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact-section">
+            <h2 class="section-title" data-i18n="contactTitle">📬 Contact</h2>
+            <p class="contact-description" data-i18n="contactDescription">
+                Want to collaborate or just say "Hello"? Get in touch with us!
+            </p>
+            <div class="social-links">
+                <a href="mailto:furyfish.studio@gmail.com" class="social-btn email" data-i18n="emailBtn">Email Us</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p data-i18n="footerText">© 2026 Furyfish Studio. Made with ❤️ and creativity.</p>
+        </footer>
+    </div>
+
+    <script src="main.js"></script>
 </body>
 
 </html>
