@@ -10,7 +10,7 @@ const translations = {
         navContact: "Contact",
 
         // Header
-        tagline: "We create games with <span class=\"tagline-highlight\">hand-drawn art style</span>, bringing unique and heartfelt experiences 🎨✨",
+        tagline: "We create games with <span class=\"tagline-highlight\">unique art style</span>, bringing fun and heartfelt experiences 🎨✨",
 
         // Games Section
         gamesTitle: "🎮 Our Games",
@@ -18,9 +18,9 @@ const translations = {
 
         // About Section
         aboutTitle: "✨ About Us",
-        aboutDescription: "At <strong>Furyfish Studio</strong>, we believe games are not just entertainment, but also works of art. We breathe life into every hand-drawn stroke, creating dreamy and colorful worlds full of emotion.",
-        feature1Title: "100% Hand-Drawn",
-        feature1Desc: "Every character and scene is meticulously crafted by our artists.",
+        aboutDescription: "At <strong>Furyfish Studio</strong>, we believe games are not just entertainment, but also works of art. We carefully craft every detail to create dreamy and colorful worlds full of emotion.",
+        feature1Title: "Unique Art Style",
+        feature1Desc: "Every character and scene is crafted with creativity and passion.",
         feature2Title: "Relaxing Music",
         feature2Desc: "Gentle piano melodies that heal the player's soul.",
         feature3Title: "Meaningful Stories",
@@ -41,7 +41,7 @@ const translations = {
         navContact: "Liên Hệ",
 
         // Header
-        tagline: "Chúng tôi tạo ra những tựa game với <span class=\"tagline-highlight\">phong cách nghệ thuật vẽ tay</span>, mang đến trải nghiệm độc đáo và đầy cảm xúc 🎨✨",
+        tagline: "Chúng tôi tạo ra những tựa game với <span class=\"tagline-highlight\">phong cách nghệ thuật độc đáo</span>, mang đến trải nghiệm vui vẻ và đầy cảm xúc 🎨✨",
 
         // Games Section
         gamesTitle: "🎮 Các Tựa Game",
@@ -49,9 +49,9 @@ const translations = {
 
         // About Section
         aboutTitle: "✨ Về Chúng Tôi",
-        aboutDescription: "Tại <strong>Furyfish Studio</strong>, chúng tôi tin rằng game không chỉ là giải trí, mà còn là một tác phẩm nghệ thuật. Chúng tôi thổi hồn vào từng nét vẽ tay, tạo nên những thế giới mộng mơ và đầy màu sắc.",
-        feature1Title: "Vẽ Tay 100%",
-        feature1Desc: "Mỗi nhân vật, cảnh vật đều được họa sĩ chăm chút tỉ mỉ bằng tay.",
+        aboutDescription: "Tại <strong>Furyfish Studio</strong>, chúng tôi tin rằng game không chỉ là giải trí, mà còn là một tác phẩm nghệ thuật. Chúng tôi chau chuốt từng chi tiết để tạo nên những thế giới mộng mơ và đầy màu sắc.",
+        feature1Title: "Nghệ Thuật Độc Đáo",
+        feature1Desc: "Mỗi nhân vật, cảnh vật đều được sáng tạo đầy tâm huyết.",
         feature2Title: "Âm Nhạc Thư Giãn",
         feature2Desc: "Giai điệu piano nhẹ nhàng, chữa lành tâm hồn người chơi.",
         feature3Title: "Cốt Truyện Sâu Sắc",
@@ -72,7 +72,7 @@ const translations = {
         navContact: "联系",
 
         // Header
-        tagline: "我们用<span class=\"tagline-highlight\">手绘艺术风格</span>创作游戏，带来独特而真挚的体验 🎨✨",
+        tagline: "我们用<span class=\"tagline-highlight\">独特的艺术风格</span>创作游戏，带来有趣而真挚的体验 🎨✨",
 
         // Games Section
         gamesTitle: "🎮 我们的游戏",
@@ -80,9 +80,9 @@ const translations = {
 
         // About Section
         aboutTitle: "✨ 关于我们",
-        aboutDescription: "<strong>Furyfish Studio</strong> 相信游戏不仅仅是娱乐，更是艺术品。我们为每一笔手绘注入灵魂，创造出梦幻而多彩的世界。",
-        feature1Title: "100%手绘",
-        feature1Desc: "每个角色和场景都由艺术家精心绘制。",
+        aboutDescription: "<strong>Furyfish Studio</strong> 相信游戏不仅仅是娱乐，更是艺术品。我们精心打磨每一个细节，创造出梦幻而多彩的世界。",
+        feature1Title: "独特的艺术风格",
+        feature1Desc: "每个角色和场景都充满创意和激情。",
         feature2Title: "放松音乐",
         feature2Desc: "轻柔的钢琴旋律，治愈玩家的心灵。",
         feature3Title: "有意义的故事",
