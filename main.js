@@ -8,6 +8,7 @@ const translations = {
         navGames: "Games",
         navAbout: "About",
         navContact: "Contact",
+        navPrivacy: "Privacy",
 
         // Header
         tagline: "We create games with <span class=\"tagline-highlight\">unique art style</span>, bringing fun and heartfelt experiences 🎨✨",
@@ -39,6 +40,7 @@ const translations = {
         navGames: "Games",
         navAbout: "Về Studio",
         navContact: "Liên Hệ",
+        navPrivacy: "Quyền Riêng Tư",
 
         // Header
         tagline: "Chúng tôi tạo ra những tựa game với <span class=\"tagline-highlight\">phong cách nghệ thuật độc đáo</span>, mang đến trải nghiệm vui vẻ và đầy cảm xúc 🎨✨",
@@ -70,6 +72,7 @@ const translations = {
         navGames: "游戏",
         navAbout: "关于我们",
         navContact: "联系",
+        navPrivacy: "隐私政策",
 
         // Header
         tagline: "我们用<span class=\"tagline-highlight\">独特的艺术风格</span>创作游戏，带来有趣而真挚的体验 🎨✨",
@@ -122,6 +125,7 @@ function updateContent(lang) {
     document.querySelector('[data-i18n="navGames"]').textContent = t.navGames;
     document.querySelector('[data-i18n="navAbout"]').textContent = t.navAbout;
     document.querySelector('[data-i18n="navContact"]').textContent = t.navContact;
+    document.querySelector('[data-i18n="navPrivacy"]').textContent = t.navPrivacy;
 
     // Update header
     document.querySelector('[data-i18n="tagline"]').innerHTML = t.tagline;
